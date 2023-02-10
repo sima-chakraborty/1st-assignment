@@ -1,30 +1,288 @@
 *{
+    font-family: 'Poppins', sans-serif;
     margin: 0;
-    font-family: sans-serif;
-}
-.header{
-   background-image: url("images/banner/banner3.png");
-   
-   /* background-repeat: no-repeat; */
-   size: 600px,650px;
-
- 
-   
+    padding: 0;
 
 }
-.header-text{
+header{
+    background-image: url('images/banner/banner3.png');
+    /* width: 1500px;
+    height: 808px; */
+    width: 0 auto;
+    height: 800px;
+}
+.header-container{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+   
+}
+.header-detaile{
+    padding: 100px;    
+}
+
+.header-tittle{
+    font-weight: 700;
+    font-size: 40px;
     text-align: right;
-   padding-right: 100px;
-   padding: 100px;
+    color: #FFFFFF;
+    width: 350px;
+    margin-left:325px ;
+    
 }
-.header-title{
-    padding: 60px;
+.header-sub-tittle{
+    font-weight: 300;
+    font-size: 15px;
+    text-align: right;
+    color: #FFFFFF; 
+    width: 380px;
+    margin-left: 300px;
+    margin-bottom: 25px;
 }
-.header-subtitle{
-    padding-bottom: 60px;
+.btn-contact{
+   margin-left: 530px;
+   width: 150px;
+   height: 60px;
+   font-weight: 700px;
+   font-size:25px;
+   color:#005FAC;
+   border-radius: 5px;
+   border: none;
 }
-.header-button{
-    padding: 10px,18px; 
-    border-radius: 5px;
+
+/* section-failures 
+*/
+
+.failures{
+    margin-top:0px;
+    background-color: aqua;
+   
+}
+.failure-subscrive{
+    display: flex;
+    padding: 180px;
+    gap:80px;
+}
+.failures-img{
+    background: url(ff.png);
+
+}
+.failures-detaile{
+  margin-top: 20px;
+
+}
+.failures-h3{
+    font-weight: 600;
+    font-size: 45px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.failures-p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+
+    color: #444343;
+    
+}
+.fa-check{
+    color: rgba(22, 216, 135, 1);
+}
+/* My Plans */
+.My-Plans{
+margin: 30px,200px;
+}
+.skills-detailes{
+    display: flex;
+    gap: 50px;
+    justify-content:space-evenly
+}
+.My-Plans-p{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400px;
     margin-bottom: 50px;
+    
 }
+.skills-h{
+    font-weight: 700;
+    font-size: 25px;
+    color: #151414;
+    margin-bottom:16px;
+}
+.skills-p{
+    font-weight: 500;
+    font-size: 20px;
+    color: #737272;
+   text-align: center;
+}
+/* future plan */
+
+.my-future-plan{
+    margin-top: 130px;
+}
+.course{
+    width:1200px;
+    height:400px;
+    display: flex;
+    gap:30px;
+    box-shadow:5px;
+    background-color:rgb(174, 165, 134);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 50px;
+    border: none;
+    border-radius: 5px;
+}
+
+.course-info{
+    height: 150px;
+    width: 250px;
+    border: 5px ;
+    padding: 10px;
+    box-shadow: 3px 5px 3px 5px #888888;
+    border-radius: 5px;
+    background-color: #F8F8F8;
+}
+/* mindset */
+.mindset{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 100px;
+    
+}
+.linear-gradient{
+ background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%),url('images/watch.png');
+  width: 1140px;
+  height: 300px;
+  background-size: cover;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+   
+}
+.mindset-detaile{
+    padding: 80px;
+}
+
+.mindset-p{
+    font-weight: 500;
+    font-size: 25px;
+    color: #FFFFFF;
+    width: 400px;
+    height: 94px;
+    margin-bottom: 20px;
+}
+
+.btn-mindset{
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #005FAC;
+    width: 150px;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+/* footer */
+
+.footer{
+    width: 0 auto;
+    height: 500px;
+    background: #151414;
+    margin-top: 130px;
+}
+.footer-detailes{
+    display: flex;
+    gap:200px;
+    align-items: center;
+    Justify-content:center;
+}
+.footer-future{
+    width: 485px;
+    height: 317px;
+}
+.future-h3{
+    width: 148px;
+    height: 53px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+}
+.future-sumary{
+    width: 485px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF; 
+    margin-top: 16px; 
+}
+.email{
+    width: 184px;
+    height: 26px;
+    left: 230px;
+    top: 2952.96px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF; 
+}
+.phone{
+    
+width: 186px;
+height: 26px;
+left: 230px;
+top: 2994.96px;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FFFFFF;  
+}
+
+.social-media{
+    display: flex;
+    gap:7px;
+    margin-top: 20px;
+}
+
+.footer-subscribe{
+    width: 485px;
+    height: 317px; 
+    margin-top: 80px;
+}
+.subscribe-p{
+    width: 123px;
+    height: 29px;
+    left: 1046px;
+    top: 2781.96px;
+    font-weight: 600;
+    font-size: 30px;
+    color: #FFFFFF;
+margin-bottom: 40px;
+
+}
+.subscribe-email{
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  border-color:#FFFFFF ;
+  background-color: #151414;
+  color:#FFFFFF ;
+  text-align: center;
+}
+.subscribe-btn{
+    width: 170.11px;
+    height: 64px;
+    background: #005FAC;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF; 
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+
