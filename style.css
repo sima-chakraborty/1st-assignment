@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+.header{
+   background-image: url("images/banner/banner3.png");
+   
+   /* background-repeat: no-repeat; */
+   size: 600px,650px;
+
+ 
+   
+
+}
+.header-text{
+    text-align: right;
+   padding-right: 100px;
+   padding: 100px;
+}
+.header-title{
+    padding: 60px;
+}
+.header-subtitle{
+    padding-bottom: 60px;
+}
+.header-button{
+    padding: 10px,18px; 
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
